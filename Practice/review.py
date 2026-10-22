@@ -17,9 +17,12 @@ for t in temps:
 average = total / len(temps)
 print(average)
 
-highest = temps [0]
+highest = temps[0]
 for t in temps:
     if t > highest:
         highest = t
 
 print(highest)
+
+
+
